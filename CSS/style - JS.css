@@ -1,0 +1,118 @@
+body {
+    background-color:blanchedalmond;
+}
+
+body.dark {
+    background-color:rgb(44, 43, 40);
+}
+
+header {
+    display: flex;
+    background-color: wheat;
+}
+
+header.dark {
+    display: flex;
+    background-color: rgb(22, 20, 17);
+}
+
+#nametag {
+    font-family: 'Segoe UI';
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(34, 34, 34);
+
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 15px;
+}
+
+#nametag.dark {
+    font-family: 'Segoe UI';
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(253, 248, 238);
+
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 15px;
+}
+
+footer {
+    text-align: center;
+    background-color: sandybrown;
+    height: 25px;
+}
+
+footer.dark {
+    text-align: center;
+    background-color: rgb(152, 160, 117);
+    height: 25px;
+}
+
+h4 {
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+h4.dark {
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: 500;
+    color: azure;
+
+}
+
+#p_picture {
+    width: 180px;
+    padding: 20px;
+}
+
+
+
+.desc {
+    padding-left: 2px;
+    font-size: 14px;
+    color: #7a9656;
+}
+
+.desc.dark {
+    padding-left: 2px;
+    font-size: 14px;
+    color: rgb(253, 248, 238);
+}
+
+#container {
+    display: grid;
+    background-color: rgb(255, 255, 240);
+    margin-left: 50px;
+    margin-top: 25px;
+    grid-template-areas: 
+    "education experience skills";
+    padding: 20px;
+    max-width: 800px;    
+}
+
+.education {
+    grid-area: education;
+    padding-right: 5px;
+}
+
+.experience {
+    grid-area: experience;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.skills {
+    grid-area: skills;
+    padding-left: 5px;
+}
+
+.icon {
+    width: 30px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
